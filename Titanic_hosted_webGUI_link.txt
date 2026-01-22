@@ -2,5 +2,5 @@ Name: Anjolaoluwa Adekomi
 Matric Number: 22CH031976
 Machine Learning Algorithm Used: Logistic Regression
 Model persistence method used: Pickle
-Live URL of the hosted application: https://<your-app-name>.onrender.com
+Live URL of the hosted application: https://titanic-survival-prediction-1-9uit.onrender.com/
 GitHub repository link: https://github.com/aanjolaoluwa/titanic_survival_prediction
