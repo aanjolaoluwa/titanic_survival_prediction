@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Titanic Survival Prediction</h1>
+    <form method="POST">
+        Pclass: <input type="number" name="Pclass" required><br>
+        Sex (0=Male,1=Female): <input type="number" name="Sex" required><br>
+        Age: <input type="number" name="Age" step="0.1" required><br>
+        SibSp: <input type="number" name="SibSp" required><br>
+        Fare: <input type="number" name="Fare" step="0.1" required><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
+
